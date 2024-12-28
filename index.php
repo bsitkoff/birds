@@ -1,9 +1,8 @@
-<?php
-// index.php
-?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birdfeeder Video Uploader</title>
     <style>
         body {
@@ -38,7 +37,7 @@
     </style>
 </head>
 <body>
-    <h1>Upload Birdfeeder Video</h1>
+    <h1>Upload Birdfeeder Video 1.01</h1>
     <form action="upload.php" method="post" enctype="multipart/form-data">
         <input type="file" name="video" accept="video/mp4" required>
         <button type="submit">Upload Video</button>
@@ -47,21 +46,20 @@
     <h2>Gallery</h2>
     <div class="gallery">
         <?php
-            $framesDir = 'frames/';
-            if (is_dir($framesDir)) {
-                $files = array_diff(scandir($framesDir), array('.', '..'));
-                foreach ($files as $file) {
-                    // Only display image files
-                    if (preg_match('/\.(jpg|jpeg|png|gif)$/i', $file)) {
-                        echo "<div class='frame'>";
-                        echo "<img src='{$framesDir}{$file}' alt='Frame'>";
-                        echo "<div class='caption'>Example caption</div>";
-                        echo "</div>";
-                    }
+        $framesDir = 'frames/';
+        if (is_dir($framesDir)) {
+            $files = array_diff(scandir($framesDir), array('.', '..')); // Ignore '.' and '..'
+            foreach ($files as $file) {
+                if (preg_match('/\.(jpg|jpeg|png|gif)$/i', $file)) { // Show only image files
+                    echo "<div class='frame'>";
+                    echo "<img src='{$framesDir}{$file}' alt='Frame'>";
+                    echo "<div class='caption'>Example caption</div>";
+                    echo "</div>";
                 }
-            } else {
-                echo "<p>No frames available.</p>";
             }
+        } else {
+            echo "<p>No frames available.</p>";
+        }
         ?>
     </div>
 </body>
