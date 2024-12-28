@@ -1,0 +1,67 @@
+Uploaded file moved to /Users/bridget/birds.sitkoff.net/uploads/video_676f5655bd2437.02545008.mp4
+Executing FFmpeg Command: /opt/homebrew/bin/ffmpeg -y -i '/Users/bridget/birds.sitkoff.net/uploads/video_676f5655bd2437.02545008.mp4' -ss 00:00:00 -frames:v 1 -update 1 '/Users/bridget/birds.sitkoff.net/frames/frame_676f5655bd8d01.41619962.jpg' 2\>\&1
+Output:
+
+Return Status: 234
+Uploaded file moved to /Users/bridget/birds.sitkoff.net/uploads/video_676f565b0813f0.93665824.mp4
+Executing FFmpeg Command: /opt/homebrew/bin/ffmpeg -y -i '/Users/bridget/birds.sitkoff.net/uploads/video_676f565b0813f0.93665824.mp4' -ss 00:00:00 -frames:v 1 -update 1 '/Users/bridget/birds.sitkoff.net/frames/frame_676f565b082754.27252690.jpg' 2\>\&1
+Output:
+
+Return Status: 234
+Uploaded file moved to /Users/bridget/birds.sitkoff.net/uploads/video_676f56632ba525.27691423.mp4
+Executing FFmpeg Command: /opt/homebrew/bin/ffmpeg -y -i '/Users/bridget/birds.sitkoff.net/uploads/video_676f56632ba525.27691423.mp4' -ss 00:00:00 -frames:v 1 -update 1 '/Users/bridget/birds.sitkoff.net/frames/frame_676f56632bc1e8.52392203.jpg' 2\>\&1
+Output:
+
+Return Status: 234
+Uploaded file moved to /Users/bridget/birds.sitkoff.net/uploads/video_676f56ff1fe617.32621816.mp4
+Executing FFmpeg Command: env HOME=/Users/bridget /opt/homebrew/bin/ffmpeg -y -i '/Users/bridget/birds.sitkoff.net/uploads/video_676f56ff1fe617.32621816.mp4' -ss 00:00:00 -frames:v 1 -update 1 '/Users/bridget/birds.sitkoff.net/frames/frame_676f56ff201374.47718862.jpg' 2>&1
+Output:
+ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers
+  built with Apple clang version 16.0.0 (clang-1600.0.26.4)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/7.1_4 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/bridget/birds.sitkoff.net/uploads/video_676f56ff1fe617.32621816.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    creation_time   : 2024-12-27T14:48:03.000000Z
+  Duration: 00:00:04.49, start: 0.000000, bitrate: 380 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 640x360, 392 kb/s, 15.24 fps, 15 tbr, 1k tbn (default)
+      Metadata:
+        creation_time   : 2024-12-27T14:48:03.000000Z
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 16000 Hz, mono, fltp, 20 kb/s (default)
+      Metadata:
+        creation_time   : 2024-12-27T14:48:03.000000Z
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Users/bridget/birds.sitkoff.net/frames/frame_676f56ff201374.47718862.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, progressive), 640x360, q=2-31, 200 kb/s, 15 fps, 15 tbn (default)
+      Metadata:
+        creation_time   : 2024-12-27T14:48:03.000000Z
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 mjpeg
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[out#0/image2 @ 0x600002ee03c0] video:48KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=6.4 Lsize=N/A time=00:00:00.06 bitrate=N/A speed=6.86x
+Return Status: 0
+Frame successfully extracted to /Users/bridget/birds.sitkoff.net/frames/frame_676f56ff201374.47718862.jpg

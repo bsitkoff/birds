@@ -1,0 +1,60 @@
+Uploaded file moved to uploads/video_676f2b3ce5a4e0.83398273.mp4
+Contents of uploads directory: ., .., video_676f2b3ce5a4e0.83398273.mp4
+Executing command: /home2/sitkoff/bin/ffmpeg -y -i 'uploads/video_676f2b3ce5a4e0.83398273.mp4' -ss 00:00:00 -vframes 1 'frames/frame_676f2b3ce5d289.63186219.jpg' 2\>\&1
+FFmpeg Error Output:
+Uploaded file moved to uploads/video_676f2b8fb91a31.14602709.mp4
+Contents of uploads directory: ., .., bird_feeder_timelapse-zTvfHQ_8aY.mp4, video_676f2b8fb91a31.14602709.mp4
+Executing command: /home2/sitkoff/bin/ffmpeg -y -i 'uploads/video_676f2b8fb91a31.14602709.mp4' -ss 00:00:00 -vframes 1 'frames/frame_676f2b8fb94702.94482939.jpg' 2\>\&1
+FFmpeg Error Output:
+Uploaded file moved to uploads/video_676f2b99dd8ec6.41462411.mp4
+Contents of uploads directory: ., .., bird_feeder_timelapse-zTvfHQ_8aY.mp4, video_676f2b99dd8ec6.41462411.mp4
+Executing command: /home2/sitkoff/bin/ffmpeg -y -i 'uploads/video_676f2b99dd8ec6.41462411.mp4' -ss 00:00:00 -vframes 1 'frames/frame_676f2b99de01a3.09008304.jpg' 2\>\&1
+FFmpeg Error Output:
+Uploaded file moved to uploads/video_676f2dad05c423.60057790.mp4
+Contents of uploads directory: ., .., bird_feeder_timelapse-zTvfHQ_8aY.mp4, video_676f2dad05c423.60057790.mp4
+Executing command: /home2/sitkoff/bin/ffmpeg -y -i 'uploads/video_676f2dad05c423.60057790.mp4' -ss 00:00:00 -vframes 1 'frames/frame_676f2dad05efa5.35599059.jpg' 2\>\&1
+FFmpeg Error Output:
+Uploaded file moved to uploads/video_676f2dff6948a4.97044577.mp4
+Contents of uploads directory: ., .., bird_feeder_timelapse-zTvfHQ_8aY.mp4, video_676f2dff6948a4.97044577.mp4
+Executing command: /home2/sitkoff/bin/ffmpeg -y -i 'uploads/video_676f2dff6948a4.97044577.mp4' -ss 00:00:00 -vframes 1 'frames/frame_676f2dff697553.22996073.jpg' 2\>\&1
+FFmpeg Error Output:
+Uploaded file moved to uploads/video_676f2e6d2cd657.34357977.mp4
+Contents of uploads directory: ., .., bird_feeder_timelapse-zTvfHQ_8aY.mp4, video_676f2e6d2cd657.34357977.mp4
+Executing command: /home2/sitkoff/bin/ffmpeg -y -i 'uploads/video_676f2e6d2cd657.34357977.mp4' -ss 00:00:00 -vframes 1 'frames/frame_676f2e6d2d0049.71022216.jpg' 2\>\&1
+FFmpeg Output:
+
+FFmpeg Error Output:
+Uploaded file moved to uploads/video_676f2ea70bc853.50245865.mp4
+Contents of uploads directory: ., .., bird_feeder_timelapse-zTvfHQ_8aY.mp4, video_676f2ea70bc853.50245865.mp4
+Executing command: /home2/sitkoff/bin/ffmpeg -y -i 'uploads/video_676f2ea70bc853.50245865.mp4' -ss 00:00:00 -vframes 1 'frames/frame_676f2ea70bfb52.56716595.jpg' 2\>\&1
+FFmpeg Output:
+
+FFmpeg Error Output:
+Uploaded file moved to /home2/sitkoff/birds.sitkoff.net/uploads/video_676f30d3e6dd91.38541691.mp4
+Contents of uploads directory: ., .., bird_feeder_timelapse-zTvfHQ_8aY.mp4, video_676f30d3e6dd91.38541691.mp4
+Executing command: /home2/sitkoff/bin/ffmpeg -y -i '/home2/sitkoff/birds.sitkoff.net/uploads/video_676f30d3e6dd91.38541691.mp4' -ss 00:00:00 -vframes 1 '/home2/sitkoff/birds.sitkoff.net/frames/frame_676f30d3e711c4.87042575.jpg' 2\>\&1
+FFmpeg Output:
+
+Return Status: 234
+FFmpeg encountered an error.
+Return Status: 234
+Output:
+Failed to move uploaded file.
+Uploaded file moved to /Users/bridget/birds.sitkoff.net/uploads/video_676f3800a81e15.38700328.mp4
+Contents of uploads directory: ., .., bird_feeder_timelapse-zTvfHQ_8aY.mp4, video_676f3800a81e15.38700328.mp4
+FFmpeg not found at path: /home2/sitkoff/bin/ffmpeg
+Uploaded file moved to /Users/bridget/birds.sitkoff.net/uploads/video_676f5442e222a8.47692390.mp4
+Contents of uploads directory: ., .., bird_feeder_timelapse-zTvfHQ_8aY.mp4, video_676f5442e222a8.47692390.mp4
+FFmpeg not found at path: /home2/sitkoff/bin/ffmpeg
+Uploaded file moved to /Users/bridget/birds.sitkoff.net/uploads/video_676f5489bedda5.84331784.mp4
+Contents of uploads directory: ., .., bird_feeder_timelapse-zTvfHQ_8aY.mp4, video_676f5489bedda5.84331784.mp4
+FFmpeg not found at path: /opt/homebrew/bin/ffmpeg 
+Uploaded file moved to /Users/bridget/birds.sitkoff.net/uploads/video_676f54a2959997.42469067.mp4
+Contents of uploads directory: ., .., bird_feeder_timelapse-zTvfHQ_8aY.mp4, video_676f54a2959997.42469067.mp4
+Executing command: /opt/homebrew/bin/ffmpeg -y -i '/Users/bridget/birds.sitkoff.net/uploads/video_676f54a2959997.42469067.mp4' -ss 00:00:00 -vframes 1 '/Users/bridget/birds.sitkoff.net/frames/frame_676f54a295d7c9.18348880.jpg' 2\>\&1
+FFmpeg Output:
+
+Return Status: 234
+FFmpeg encountered an error.
+Return Status: 234
+Output:
